@@ -28,9 +28,9 @@ function adicionaLinha(){
         notas.push(parseFloat(inputNotaAtividade.value));
     
         let linha = '<tr>';
-        linha += `<td>${inputNomeAtividade.value}<td>`;
-        linha += `<td>${inputNotaAtividade.value}<td>`;
-        linha += `<td>${inputNotaAtividade.value >= notaMinima  ? imgAprovado : imgReprovado }<td>`;
+        linha += `<td>${inputNomeAtividade.value}</td>`;
+        linha += `<td>${inputNotaAtividade.value}</td>`;
+        linha += `<td>${inputNotaAtividade.value >= notaMinima  ? imgAprovado : imgReprovado }</td>`;
         linha += '</tr>';
     
         linhas += linha;
